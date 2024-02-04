@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ermineaweb/pbar"
+	"github.com/ermineaweb/pbar-multiline"
 )
 
 func main() {

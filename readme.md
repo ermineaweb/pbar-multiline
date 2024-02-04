@@ -1,11 +1,11 @@
-Add a simple progress bar to golang CLI.
+Multiline progress bar for golang CLI.
 
 ![screen](screen.png)
 
 ### Usage
 
 ```bash
-go get github.com/ermineaweb/pbar
+go get github.com/ermineaweb/pbar-multiline
 ```
 
 ```golang
@@ -23,7 +23,7 @@ defer pb.Add(1)
 Sync version
 
 ```golang
-import 	"github.com/ermineaweb/pbar"
+import 	"github.com/ermineaweb/pbar-multiline"
 
 func main() {
 	pb := pbar.NewProgressBar(50)
@@ -44,7 +44,7 @@ func work(i int) {
 Async version
 
 ```golang
-import 	"github.com/ermineaweb/pbar"
+import 	"github.com/ermineaweb/pbar-multiline"
 
 func main() {
 	var wg sync.WaitGroup
